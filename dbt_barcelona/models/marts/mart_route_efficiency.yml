@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: mart_route_efficiency
+    columns:
+      - name: route_strategy
+        tests:
+          - not_null
+          - unique
+          - accepted_values:
+              arguments:
+                values:
+                  - shortest_distance
+                  - fastest_time
+                  - lowest_cost

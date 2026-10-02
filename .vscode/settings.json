@@ -1,0 +1,18 @@
+{
+    "workbench.editorAssociations": {
+        "*.copilotmd": "vscode.markdown.preview.editor",
+        "*.parquet": "duckdb.dataFileViewer",
+        "*.csv": "duckdb.dataFileViewer",
+        "*.tsv": "duckdb.dataFileViewer",
+        "*.xlsx": "duckdb.dataFileViewer"
+    },
+    "duckdb.databases": [
+        {
+            "alias": "barcelona_routes",
+            "type": "file",
+            "path": "/Users/nahidaqueen/Desktop/barcelona-route-optimizer/dbt_barcelona/barcelona_routes.duckdb",
+            "attached": true
+        }
+    ],
+    "duckdb.defaultDatabase": "barcelona_routes"
+}

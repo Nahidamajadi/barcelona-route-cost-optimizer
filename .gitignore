@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# dbt generated files
+dbt_barcelona/target/
+dbt_barcelona/logs/
+dbt_barcelona/.cache/
+
+# Local databases
+*.duckdb
+
+# macOS
+.DS_Store
